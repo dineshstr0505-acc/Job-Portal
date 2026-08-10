@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobs-page {
+    padding: 50px 8%;
+    background: whitesmoke;
+    min-height: 100vh;
+}
+
+.jobs-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.jobs-header h1 {
+    font-size: 45px;
+    color: rgb(139, 3, 192);
+}
+
+.jobs-header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.search-section input,
+.search-section select {
+    padding: 14px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search-section button {
+    padding: 14px 30px;
+    background: rgb(139, 3, 192);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.search-section button:hover {
+    background: #1d4ed8;
+}
+
+.job-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.job-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.job-card:hover {
+    transform: translateY(-8px);
+}
+
+.job-card h2 {
+    color: rgb(139, 3, 192);
+    margin-bottom: 10px;
+}
+
+.job-card h3 {
+    color: rgb(68, 68, 68);
+    margin-bottom: 15px;
+}
+
+.job-card p {
+    margin: 8px 0;
+    color: rgb(85, 85, 85);
+}
+
+.apply-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(139, 3, 192);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.apply-btn:hover {
+    background: rgb(183, 0, 255);
+}

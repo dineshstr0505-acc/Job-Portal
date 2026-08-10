@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    height: 90vh;
+    background: rgba(150, 0, 209, 0.795);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    color: yellow;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+button {
+    padding: 15px 30px;
+    background: rgb(255, 217, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.search-box button:hover {
+    background: rgb(255, 123, 0);
+}
+
+/* Categories */
+
+.categories {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.categories h2 {
+    color: rgb(148, 1, 206);
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.category-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Why Us */
+
+.why-us {
+    background: rgba(183, 0, 255, 0.349);
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.why-us h2 {
+    margin-bottom: 40px;
+    font-size: 38px;
+}
+
+.why-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.why-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+.why-card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* CTA */
+
+.cta {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgb(148, 1, 206);
+    color: white;
+}
+
+.cta h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.cta button {
+    padding: 15px 35px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.cta button:hover {
+    background: #f57c00;
+}
