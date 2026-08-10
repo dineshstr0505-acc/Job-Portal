@@ -1,16 +1,32 @@
-# React + Vite
+💼 Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and user-friendly Job Portal web application developed using React.js. The application allows users to browse job opportunities, view detailed job information, save jobs, and navigate through different sections of the platform.
 
-Currently, two official plugins are available:
+📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Job Portal is designed to connect job seekers with available employment opportunities. Users can browse different job listings, search for suitable jobs, view complete job details, and save jobs for later.
 
-## React Compiler
+The project focuses on creating a clean, responsive, and easy-to-use interface using React components and React Router.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Features
+🏠 Home Page – Provides an introduction to the job portal.
+🔎 Job Search – Search for jobs based on job titles.
+💼 Job Listings – Displays available job opportunities.
+📄 Job Details – Shows complete information about a selected job.
+🔖 Saved Jobs – Allows users to save jobs for later.
+🔐 Login – User login interface.
+📝 Register – New user registration interface.
+📞 Contact – Contact information and communication section.
+🧭 Navigation – Easy navigation between pages.
+📱 Responsive Design – Designed to work across different screen sizes.
+🛠️ Technologies Used
 
-## Expanding the Oxlint configuration
+Frontend:
+React.js
+JavaScript
+HTML5
+CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Libraries and Tools:
+React Router DOM
+React Icons
