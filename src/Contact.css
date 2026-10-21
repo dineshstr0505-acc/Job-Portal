@@ -1,0 +1,149 @@
+.contact-page {
+    min-height: 80vh;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-header h1 {
+    font-size: 38px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-header h1 span {
+    color: rgb(139, 3, 192);
+}
+
+.contact-header p {
+    color: gray;
+    font-size: 17px;
+}
+
+/* Main Container */
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+.contact-info,
+.contact-form {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: rgb(139, 3, 192);
+    margin-bottom: 15px;
+}
+
+.contact-description {
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(139, 3, 192);
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.contact-box h3 {
+    margin: 0 0 5px;
+    color: black;
+}
+
+.contact-box p {
+    margin: 0;
+    color: gray;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: rgb(139, 3, 192);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.send-btn {
+    width: 100%;
+    padding: 13px;
+    background: rgb(139, 3, 192);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.send-btn:hover {
+    background: rgba(138, 3, 192, 0.74);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-header h1 {
+        font-size: 30px;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 25px;
+    }
+}
