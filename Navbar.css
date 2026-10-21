@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(139, 3, 192);
+    padding: 10px 20px;
+}
+
+h2 {
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(169, 8, 233);
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 2px;
+    background-color: white;
+}
+
+.nav-links a:hover {
+    color: black;
+
+}

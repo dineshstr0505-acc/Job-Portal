@@ -1,0 +1,26 @@
+.footer {
+    background: #1e293b;
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgb(138, 3, 130);
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section a:hover {
+        padding-left: 0;
+    }
+}

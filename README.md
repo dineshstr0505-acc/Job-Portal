@@ -1,16 +1,100 @@
-# React + Vite
+# 💼 Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and user-friendly Job Portal web application developed using React.js. The application allows users to browse job opportunities, view job details, search for suitable jobs, and save jobs for later.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Job Portal is designed to connect job seekers with employment opportunities. Users can browse job listings, search for suitable positions, view detailed job information, and save jobs for future reference.
 
-## React Compiler
+The project focuses on providing a clean, responsive, and easy-to-use interface using React components and React Router.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 🏠 **Home Page** – Introduction to the job portal.
+- 🔎 **Job Search** – Search for jobs by title.
+- 💼 **Job Listings** – Browse available job opportunities.
+- 📄 **Job Details** – View information about selected jobs.
+- 🔖 **Saved Jobs** – Save jobs for later.
+- 🔐 **Login** – User login interface.
+- 📝 **Register** – User registration interface.
+- 📞 **Contact** – Contact information and communication section.
+- 🧭 **Navigation** – Navigate easily between pages.
+- 📱 **Responsive Design** – Support for different screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Technologies Used
+
+**Frontend**
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+**Libraries and Tools**
+- Vite
+- React Router DOM
+- React Icons
+- Git and GitHub
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dineshstr0505-acc/Job-Portal.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Job-Portal
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Build for production:
+
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+```text
+Job-Portal/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## 🌐 Deployment
+
+The frontend can be deployed using Vercel or another hosting platform that supports Vite applications.
+
+## 👨‍💻 Author
+
+Developed as a React.js Job Portal project.
